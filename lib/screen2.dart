@@ -5,10 +5,12 @@ class Screen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: Text('Screen 2'),
       ),
       body: Center(
         child: RaisedButton(
+          color: Colors.blue,
           child: Text('Go Back To Screen 1'),
           onPressed: () {},
         ),
